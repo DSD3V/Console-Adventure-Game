@@ -1,0 +1,32 @@
+{
+  "gameData":
+  {
+    "rooms":
+    [
+      {
+        "name": "Room 1",
+        "description": "Modified Description",
+        "items": [],
+        "directions": [
+          {
+            "direction": "North",
+            "roomInDirection": "Cool Room 1"
+          }
+        ],
+        "roomImageLink": "testlink1.jpg"
+      },
+      {
+        "name": "Room 2",
+        "description": "Modified Description",
+        "items": ["Test item 1", "Test item 2"],
+        "directions": [
+          {
+            "direction": "South",
+            "roomInDirection": "Cool Room 2"
+          }
+        ],
+        "roomImageLink": "testlink2.jpg"
+      }
+    ]
+  }
+}

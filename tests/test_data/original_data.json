@@ -1,0 +1,172 @@
+{
+  "gameData":
+  {
+    "rooms":
+    [
+      {
+        "name": "Cell",
+        "description": "This is the cell you woke up in. From here you can see the testing chamber, secret technology hatch, and engine room.",
+        "items": [],
+        "directions": [
+          {
+            "direction": "North",
+            "roomInDirection": "Testing Chamber"
+          },
+          {
+            "direction": "East",
+            "roomInDirection": "Engine Room"
+          },
+          {
+            "direction": "Northeast",
+            "roomInDirection": "Secret Technology Hatch"
+          }
+        ],
+        "roomImageLink": "src/main/resources/roomPictures/cell.jpg"
+      },
+      {
+        "name": "Testing Chamber",
+        "description": "This is where your captors conduct secret tests on abducted beings. From here you can see the command center, surveillance room, secret technology hatch, engine room, and your cell.",
+        "items": ["Tranquilizer", "Mystery drug"],
+        "directions": [
+          {
+            "direction": "North",
+            "roomInDirection": "Command Center"
+          },
+          {
+            "direction": "Northeast",
+            "roomInDirection": "Surveillance Room"
+          },
+          {
+            "direction": "East",
+            "roomInDirection": "Secret Technology Hatch"
+          },
+          {
+            "direction": "South",
+            "roomInDirection": "Cell"
+          },
+          {
+            "direction": "Southeast",
+            "roomInDirection": "Engine Room"
+          }
+        ],
+        "roomImageLink": "src/main/resources/roomPictures/testingchamber.jpg"
+      },
+      {
+        "name": "Command Center",
+        "description": "This is where your captors control the spaceship. From here you can see the surveillance room, testing chamber, secret technology hatch, and portal.",
+        "items": [],
+        "directions": [
+          {
+            "direction": "East",
+            "roomInDirection": "Surveillance Room"
+          },
+          {
+            "direction": "South",
+            "roomInDirection": "Testing Chamber"
+          },
+          {
+            "direction": "Southeast",
+            "roomInDirection": "Secret Technology Hatch"
+          }
+        ],
+        "roomImageLink": "src/main/resources/roomPictures/commandcenter.jpg"
+      },
+      {
+        "name": "Surveillance Room",
+        "description": "This is where your captors monitor the spaceship. From here you can see the command center, testing chamber, secret technology hatch, and portal.",
+        "items": ["Key"],
+        "directions": [
+          {
+            "direction": "East",
+            "roomInDirection": "Portal"
+          },
+          {
+            "direction": "West",
+            "roomInDirection": "Command Center"
+          },
+          {
+            "direction": "South",
+            "roomInDirection": "Secret Technology Hatch"
+          },
+          {
+            "direction": "Southwest",
+            "roomInDirection": "Testing Chamber"
+          }
+        ],
+        "roomImageLink": "src/main/resources/roomPictures/surveillanceroom.jpg"
+      },
+      {
+        "name": "Secret Technology Hatch",
+        "description": "This is where your captors keep advanced, secret technology. From here you can see the command center, surveillance room, testing chamber, engine room, and your cell.",
+        "items": ["Big Bang Generator", "Cloaking Device", "Time Machine"],
+        "directions": [
+          {
+            "direction": "North",
+            "roomInDirection": "Surveillance Room"
+          },
+          {
+            "direction": "Northeast",
+            "roomInDirection": "Portal"
+          },
+          {
+            "direction": "Northwest",
+            "roomInDirection": "Command Center"
+          },
+          {
+            "direction": "West",
+            "roomInDirection": "Testing Chamber"
+          },
+          {
+            "direction": "South",
+            "roomInDirection": "Engine Room"
+          },
+          {
+            "direction": "Southwest",
+            "roomInDirection": "Cell"
+          }
+        ],
+        "roomImageLink": "src/main/resources/roomPictures/secrettechnologyhatch.jpg"
+      },
+      {
+        "name": "Engine Room",
+        "description": "This is where the engine of the spaceship is. From here you can see the testing chamber, secret technology hatch, and your cell.",
+        "items": [],
+        "directions": [
+          {
+            "direction": "West",
+            "roomInDirection": "Cell"
+          },
+          {
+            "direction": "North",
+            "roomInDirection": "Secret Technology Hatch"
+          },
+          {
+            "direction": "Northwest",
+            "roomInDirection": "Testing Chamber"
+          }
+        ],
+        "roomImageLink": "src/main/resources/roomPictures/engineroom.jpg"
+      },
+      {
+        "name": "Portal",
+        "description": "You have found the portal! You can now return to Earth.",
+        "items": [],
+        "directions": [
+          {
+            "direction": "West",
+            "roomInDirection": "Surveillance Room"
+          },
+          {
+            "direction": "Southwest",
+            "roomInDirection": "Secret Technology Hatch"
+          },
+          {
+            "direction": "Back to Earth",
+            "roomInDirection": "Earth"
+          }
+        ],
+        "roomImageLink": "src/main/resources/roomPictures/portal.jpg"
+      }
+    ]
+  }
+}

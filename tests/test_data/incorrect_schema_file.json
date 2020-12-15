@@ -1,0 +1,18 @@
+{
+  "gameData":
+  {
+    "rooms":
+    [
+      {
+        "name": "Cell",
+        "description": "Modified Description",
+        "items": [],
+        "directions": {
+          "Should be an": "Array of Objects"
+        },
+        "roomImageLink": "src/main/resources/roomPictures/cell.jpg",
+        "extraThing": 20
+      }
+    ]
+  }
+}

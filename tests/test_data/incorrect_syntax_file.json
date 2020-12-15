@@ -1,0 +1,26 @@
+{
+  "gameData":
+  {
+    "rooms":
+    [
+      {
+        "name": "Cell",
+        "description": "This is the cell you woke up in. From here you can see the testing chamber, secret technology hatch, and engine room.",
+        "items": [],
+        "directions": [
+          {
+            "direction": "North",
+            "roomInDirection": "Testing Chamber"
+          },
+          {
+            "direction": "East",
+            "roomInDirection": "Engine Room"
+          },
+          {
+            "direction": "Northeast",
+            "roomInDirection": "Secret Technology Hatch"
+          }
+        ],
+        "roomImageLink": "src/main/resources/roomPictures/cell.jpg"
+      }
+      }
