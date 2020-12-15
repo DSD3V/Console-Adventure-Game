@@ -1,5 +1,7 @@
 # Adventure Console Game - Find the portal to return to Earth
 
+![portal](src/data/room_pictures/portal.jpg)
+
 ## How to play:
 
 ### Open the program here in Repl.it (commands are listed at the top of Main.java) and click Run: https://repl.it/@DS2K/Adventure-Console-Game
