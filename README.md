@@ -18,6 +18,7 @@
 - Java
 - GSon
 - JSON
+- JFrame
 - JUnit
 
 ## Features:
