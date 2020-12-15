@@ -1,4 +1,4 @@
-# Adventure Console Game - Find the portal to return to Earth
+# Console Adventure Game - Find the portal to return to Earth
 
 ![portal](src/data/room_pictures/portal.jpg)
 
