@@ -59,12 +59,12 @@ public class GameEngine {
 
     /* Helper Methods for building roomInfo string */
 
-    public void addRoomNameAndDescription(StringBuilder roomInfo, String name, String description) {
+    private void addRoomNameAndDescription(StringBuilder roomInfo, String name, String description) {
         roomInfo.append(name.equals("Cell") ? "You are in your cell. " : "You are in the " + name + ". ");
         roomInfo.append(description).append("\n");
     }
 
-    public void addPossibleRoomDirections(StringBuilder roomInfo, List<Direction> directions) {
+    private void addPossibleRoomDirections(StringBuilder roomInfo, List<Direction> directions) {
         roomInfo.append("From here, you can go: ");
         for (int i = 0; i < directions.size(); ++i) {
             String direction = directions.get(i).getDirection();
@@ -72,7 +72,7 @@ public class GameEngine {
         }
     }
 
-    public void addRoomItems(StringBuilder roomInfo, ArrayList<String> items) {
+    private void addRoomItems(StringBuilder roomInfo, ArrayList<String> items) {
         if (items.size() > 0) {
             roomInfo.append("Items visible: ");
             for (int i = 0; i < items.size(); ++i) {
