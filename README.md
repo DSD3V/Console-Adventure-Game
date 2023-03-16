@@ -20,6 +20,7 @@
 - JSON
 - JFrame
 - JUnit
+- Replit
 
 ## Features:
 - Object decomposition
