@@ -4,7 +4,7 @@
 
 ## How to play:
 
-### Open the program here in Repl.it (commands are listed at the top of Main.java) and click Run: https://repl.it/@DS2K/Adventure-Console-Game
+### Open the program here in Repl.it (commands are listed at the top of Main.java) and click Run: https://repl.it/@DS2K/Console-Adventure-Game
 
 #### Commands you can enter:
 - "go" and then a valid direction to move to a new room
